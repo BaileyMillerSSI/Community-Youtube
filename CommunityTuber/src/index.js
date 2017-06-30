@@ -1,6 +1,8 @@
-const { app, BrowserWindow } = require('electron')
+const { app, BrowserWindow, autoUpdater } = require('electron')
 const path = require('path')
 const url = require('url')
+
+autoUpdater.setFeedURL("http://communitytuber.azurewebsites.net/Installers");
 
 
 if (handleSquirrelEvent(app)) {
@@ -14,7 +16,6 @@ function handleSquirrelEvent(application) {
     }
 
     const ChildProcess = require('child_process');
-    const path = require('path');
 
     const appFolder = path.resolve(process.execPath, '..');
     const rootAtomFolder = path.resolve(appFolder, '..');
@@ -40,8 +41,6 @@ function handleSquirrelEvent(application) {
     const squirrelEvent = process.argv[1];
     switch (squirrelEvent) {
         case '--squirrel-install':
-            // Install desktop and start menu shortcuts
-            spawnUpdate(['--createShortcut', exeName]);    
         case '--squirrel-updated':
             // Optionally do things such as:
             // - Add your .exe to the PATH
@@ -73,9 +72,6 @@ function handleSquirrelEvent(application) {
             return true;
     }
 };
-
-
-
 
 
 // Keep a global reference of the window object, if you don't, the window will

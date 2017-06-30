@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "electron": "ng build --target=development --base-href ./ && electron ./dist",
-    "package": "ng build --target=development --base-href ./ && electron-packager ./dist --asar --all"
+    "package": "ng build --target=production --base-href ./ && rmdir Staging /s /q && electron-packager ./dist --asar --all --icon=./src/favicon.ico --out=Staging",
+    "installers":"npm run package && cd .. && node build.js"
   },
   "private": true,
   "dependencies": {

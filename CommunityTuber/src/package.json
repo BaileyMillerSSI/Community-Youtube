@@ -1,5 +1,6 @@
 {
-    "name": "Community Tuber",
-    "version": "0.1.0",
-    "main": "index.js"
+    "name": "community_tuber",
+    "version": "0.0.1",
+    "main": "index.js",
+    "description": "A party based YouTube watching app"
 }
