@@ -14,6 +14,15 @@ Earning medals is a fundamental part of this app aside from parties. You will ea
 
 ## Spending Medals
 Introducing the medal store, a place to spend currency after hours of watching videos with your friends. You will be able to purchase a host of items that improve your experience on {{App Name Here}}. 
+* Video Player Skins
+* Special Video Reacts
+* Purcahse special event tokens
+* Increase Playlist queue size
 
+## Events and Challenges
+I plan on hostly weekly and monthly {{Punny App Name Event Here}} events that invovle getting large groups of people together to watch videos. During events extra medals will be given out and extra special prizes. Speaking of 24 hour Nyan Cat videos, who remembers those silly challenges to watch the whole video? Well I plan on bringing back YouTube video challenges with world party events.
+
+## Mini-Viewer
+Who doesn't like having a mini pop up window to watch their YouTube queue with their friends? With {{App Name Here}} mini view you can watch while you right that 20 page essay, or studying, or studying for your 20 page essay. 
 
 [Nyan Cat]:https://youtu.be/32aDV58uUBM
