@@ -4,7 +4,8 @@
 /dist
 /tmp
 /out-tsc
-/community-tuber-win32-x64
+/Community Tuber-win32-x64
+/community tuber-win32-x64
 
 # dependencies
 /node_modules
