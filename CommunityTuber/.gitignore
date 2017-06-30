@@ -5,6 +5,12 @@
 /tmp
 /out-tsc
 /Community Tuber-win32-x64
+/Community Tuber-win32-ia32
+/Community Tuber-linux-ia32
+/Community Tuber-linux-x64
+/Community Tuber-linux-armv7l
+
+
 
 # dependencies
 /node_modules
