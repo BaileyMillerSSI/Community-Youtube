@@ -10,7 +10,7 @@
       "assets": [
         "assets",
         "favicon.ico",
-        "main.js",
+        "index.js",
         "package.json"
       ],
       "index": "index.html",
