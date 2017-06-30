@@ -3,6 +3,17 @@ const path = require('path')
 const url = require('url')
 
 autoUpdater.setFeedURL("http://communitytuber.azurewebsites.net/Installers");
+autoUpdater.checkForUpdates();
+
+
+
+autoUpdater.on('update-available', () => {
+    
+});
+
+autoUpdater.on('update-downloaded', () => { 
+    autoUpdater.quitAndInstall();
+});
 
 
 if (handleSquirrelEvent(app)) {

@@ -11,7 +11,8 @@ var settings = {
     authors: 'Bailey Miller',
     // The name of the executable of your built
     exe: './community_tuber.exe',
-    description: "A community and party based real-time YouTube collaborative watching app."
+    description: "A community and party based real-time YouTube collaborative watching app.",
+    noMsi: true
 };
 
 resultPromise = electronInstaller.createWindowsInstaller(settings);
