@@ -9,7 +9,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "electron": "ng build --target=development --base-href ./ && electron ./dist"
+    "electron": "ng build --target=development --base-href ./ && electron ./dist",
+    "package":"ng build --target=development --base-href ./ && electron-packager ./dist"
   },
   "private": true,
   "dependencies": {
