@@ -2,8 +2,10 @@ const { app, BrowserWindow, autoUpdater } = require('electron')
 const path = require('path')
 const url = require('url')
 
+require('electron-reload')(__dirname);
+
 autoUpdater.setFeedURL("http://communitytuber.azurewebsites.net/Installers");
-autoUpdater.checkForUpdates();
+//autoUpdater.checkForUpdates();
 
 
 

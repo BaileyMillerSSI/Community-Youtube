@@ -11,7 +11,7 @@
     "e2e": "ng e2e",
     "electron": "ng build --target=development --base-href ./ && electron ./dist",
     "package": "ng build --target=production --base-href ./ && rmdir Staging /s /q && electron-packager ./dist --asar --all --icon=./src/favicon.ico --out=Staging",
-    "installers":"npm run package && cd .. && node build.js"
+    "installers": "npm run package && cd .. && node build.js"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +24,7 @@
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
     "core-js": "^2.4.1",
+    "electron-reload": "^1.2.1",
     "electron-squirrel-startup": "^1.0.0",
     "rxjs": "^5.1.0",
     "zone.js": "^0.8.4"

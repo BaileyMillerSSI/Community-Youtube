@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as Electron from 'electron';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+    
+  appVer = Electron.remote.app.getVersion();  
+  
   constructor() { }
 
   ngOnInit() {
